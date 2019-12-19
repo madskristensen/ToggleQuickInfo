@@ -32,10 +32,5 @@ After changing the options, the status bar will reflect the new state.
 
 ![Status Bar](art/statusbar.png)
 
-### Options
-The options page allows you to chose between which profile to run automatically on save.
-
-![Options](art/options.png)
-
 ## License
 [Apache 2.0](LICENSE)
