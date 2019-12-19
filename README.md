@@ -11,15 +11,24 @@ or try the
 
 ---------------------------------------
 
-Disabling the hover tooltips, also known as the QuickInfo tooltips, removes visual noise that can be helpful during presentations, screencasts, or video recordings.
+Editor tooltips, also known as QuickInfo tooltips, are really helpful, but for some scenarios they can add too much visual noise.
 
-### Toggle command
+
+![Quickinfo](art/quickinfo.gif)
+
+Being able to disable the tooltips might be particularly helpful during presentations, screencasts, or video recordings.
+
+### Toggle
 
 To toggle the tooltips on and off, use the search field (Ctrl+Q) and search for "tooltip". 
 
 ![Search](art/search.png)
 
-Clicking the **Toggle Toolbar** item in the search result will toggle the setting and the status bar will reflect the new state.
+Clicking the **Toggle Toolbar** item in the search result will open the options dialog.
+
+![Options](art/options.png)
+
+After changing the options, the status bar will reflect the new state.
 
 ![Status Bar](art/statusbar.png)
 
