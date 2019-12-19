@@ -5,7 +5,7 @@
 Disable editor tooltips on mouse hover to remove the visual noise 
 
 Download the extension at the
-[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave)
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ToggleEditorTooltips)
 or try the
 [CI build](http://vsixgallery.com/extension/1d076908-c0d7-4d92-b528-4b14a35ff4c5/).
 
