@@ -4,6 +4,7 @@
         <Identity Id="1d076908-c0d7-4d92-b528-4b14a35ff4c5" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Toggle QuickInfo Tooltips</DisplayName>
         <Description xml:space="preserve">Disable editor tooltips on mouse hover to remove the visual noise </Description>
+        <MoreInfo>https://github.com/madskristensen/ToggleQuickInfo</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>

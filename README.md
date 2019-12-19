@@ -1,27 +1,27 @@
-# Code Cleanup On Save
+# Toggle Editor Tooltips
 
-[![Build status](https://ci.appveyor.com/api/projects/status/bh50nba9a5o8y5sf?svg=true)](https://ci.appveyor.com/project/madskristensen/codecleanuponsave)
+[![Build status](https://ci.appveyor.com/api/projects/status/frkitxn9qqetxgna?svg=true)](https://ci.appveyor.com/project/madskristensen/togglequickinfo)
 
-Automatically run one of the Code Clean profiles when saving the document. This ensures your code is always formatted correctly and follows your coding style conventions.
+Disable editor tooltips on mouse hover to remove the visual noise 
 
 Download the extension at the
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave)
 or try the
-[CI build](http://vsixgallery.com/extension/66985471-b701-4851-a2d7-5a8bdce1e694/).
+[CI build](http://vsixgallery.com/extension/1d076908-c0d7-4d92-b528-4b14a35ff4c5/).
 
 ---------------------------------------
 
-Code Cleanup is a new feature of Visual Studio 2019 that will automatically clean up your code file to make sure it is formatted correctly and that your coding style preferences are applied. 
+Disabling the hover tooltips, also known as the QuickInfo tooltips, removes visual noise that can be helpful during presentations, screencasts, or video recordings.
 
-This extension will perform the Code Cleanup automatically when the file is being saved.
+### Toggle command
 
-### Configure Code Cleanup profiles
+To toggle the tooltips on and off, use the search field (Ctrl+Q) and search for "tooltip". 
 
-At the bottom of the C# editor, click the Configure Code Cleanup. 
+![Search](art/search.png)
 
-![Code Cleanup Menu](art/code-cleanup-menu.png)
+Clicking the **Toggle Toolbar** item in the search result will toggle the setting and the status bar will reflect the new state.
 
-By default, **Profile 1** is executed on save by this extenions.
+![Status Bar](art/statusbar.png)
 
 ### Options
 The options page allows you to chose between which profile to run automatically on save.

@@ -138,6 +138,8 @@ namespace ToggleQuickInfo
             {
                 await liveModel.LoadAsync();
             }
+
+            OnSaved();
         }
 
         /// <summary>
@@ -186,5 +188,12 @@ namespace ToggleQuickInfo
                 .GetProperties()
                 .Where(p => p.PropertyType.IsSerializable && p.PropertyType.IsPublic);
         }
+
+        private void OnSaved()
+        {
+            Saved?.Invoke(this, EventArgs.Empty);
+        }
+
+        public static event EventHandler Saved;
     }
 }
