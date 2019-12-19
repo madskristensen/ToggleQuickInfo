@@ -13,7 +13,6 @@ or try the
 
 Editor tooltips, also known as QuickInfo tooltips, are really helpful, but for some scenarios they can add too much visual noise.
 
-
 ![Quickinfo](art/quickinfo.gif)
 
 Being able to disable the tooltips might be particularly helpful during presentations, screencasts, or video recordings.

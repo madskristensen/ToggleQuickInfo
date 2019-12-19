@@ -10,7 +10,7 @@ namespace ToggleQuickInfo
 {
 	[PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
 	[InstalledProductRegistration(Vsix.Name, Vsix.Description, Vsix.Version)]
-	[ProvideOptionPage(typeof(DialogPageProvider.General), "Environment", "Tooltips", 0, 0, true, new[] { "Toggle Tooltips" }, ProvidesLocalizedCategoryName = false)]
+	[ProvideOptionPage(typeof(DialogPageProvider.General), "Environment", "Tooltips", 0, 0, true, new[] { "Toggle Tooltips" }, SupportsProfiles = true, ProvidesLocalizedCategoryName = false)]
 	[Guid("e144a113-29b4-4495-a051-23b9300e41b3")]
 	public sealed class ToggleQuickInfoPackage : AsyncPackage
 	{
