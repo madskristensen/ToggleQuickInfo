@@ -19,15 +19,11 @@ Being able to disable the tooltips might be particularly helpful during presenta
 
 ### Toggle
 
-To toggle the tooltips on and off, use the search field (Ctrl+Q) and search for "tooltip". 
+To toggle the tooltips on and off, use the search field (Ctrl+Q) and search for **tooltip**. 
 
 ![Search](art/search.png)
 
-Clicking the **Toggle Toolbar** item in the search result will open the options dialog.
-
-![Options](art/options.png)
-
-After changing the options, the status bar will reflect the new state.
+Clicking the **Toggle Tooltips** item in the search result will enable or disable the tooltips and the status bar will reflect the new state.
 
 ![Status Bar](art/statusbar.png)
 

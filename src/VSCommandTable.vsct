@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+  <Include href="KnownImageIds.vsct"/>
+
+  <Commands package="guidToggleQuickInfoPackage">
+    <Groups>
+      <Group guid="guidToggleQuickInfoPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_EDIT"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidToggleQuickInfoPackageCmdSet" id="ToggleCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidToggleQuickInfoPackageCmdSet" id="MyMenuGroup" />
+        <Icon guid="ImageCatalogGuid" id="ToolTip" />
+        <CommandFlag>IconIsMoniker</CommandFlag>
+        <Strings>
+          <ButtonText>Toggle Tooltips</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidToggleQuickInfoPackage" value="{e144a113-29b4-4495-a051-23b9300e41b3}" />
+
+    <GuidSymbol name="guidToggleQuickInfoPackageCmdSet" value="{81d05947-f76c-4ea1-8939-9b1f5639e3b8}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="ToggleCommandId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>
