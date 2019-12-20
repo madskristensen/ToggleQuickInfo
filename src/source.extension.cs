@@ -8,11 +8,11 @@ namespace ToggleQuickInfo
     internal sealed partial class Vsix
     {
         public const string Id = "1d076908-c0d7-4d92-b528-4b14a35ff4c5";
-        public const string Name = "Toggle QuickInfo Tooltips";
-        public const string Description = @"Empty VSIX Project.";
+        public const string Name = "Toggle Editor Tooltips";
+        public const string Description = @"Disable editor tooltips on mouse hover to remove the visual noise ";
         public const string Language = "en-US";
         public const string Version = "1.0";
         public const string Author = "Mads Kristensen";
-        public const string Tags = "";
+        public const string Tags = "editor, tooltip, quickinfo";
     }
 }
