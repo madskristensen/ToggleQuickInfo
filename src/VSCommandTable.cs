@@ -23,6 +23,7 @@ namespace ToggleQuickInfo
     /// </summary>
     internal sealed partial class PackageIds
     {
+        public const int MyMenu = 0x1010;
         public const int MyMenuGroup = 0x1020;
         public const int ToggleCommandId = 0x0100;
     }

@@ -6,9 +6,18 @@
   <Include href="KnownImageIds.vsct"/>
 
   <Commands package="guidToggleQuickInfoPackage">
+    <Menus>
+      <Menu guid="guidToggleQuickInfoPackageCmdSet" id="MyMenu" priority="100" type="Menu">
+        <Parent guid="guidSHLMainMenu" id="IDG_VS_MENU_CONTEXTMENUS"/>
+        <Strings>
+          <ButtonText>Whatever</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+
     <Groups>
       <Group guid="guidToggleQuickInfoPackageCmdSet" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_EDIT"/>
+        <Parent guid="guidToggleQuickInfoPackageCmdSet" id="MyMenu"/>
       </Group>
     </Groups>
 
@@ -17,6 +26,7 @@
         <Parent guid="guidToggleQuickInfoPackageCmdSet" id="MyMenuGroup" />
         <Icon guid="ImageCatalogGuid" id="ToolTip" />
         <CommandFlag>IconIsMoniker</CommandFlag>
+        <CommandFlag>CommandWellOnly</CommandFlag>
         <Strings>
           <ButtonText>Toggle Tooltips</ButtonText>
         </Strings>
@@ -24,10 +34,15 @@
     </Buttons>
   </Commands>
 
+  <KeyBindings>
+    <KeyBinding guid="guidToggleQuickInfoPackageCmdSet" id="ToggleCommandId" editor="guidVSStd97" key1="K" mod1="Control" key2="Z" mod2="Control" />
+  </KeyBindings>
+
   <Symbols>
     <GuidSymbol name="guidToggleQuickInfoPackage" value="{e144a113-29b4-4495-a051-23b9300e41b3}" />
 
     <GuidSymbol name="guidToggleQuickInfoPackageCmdSet" value="{81d05947-f76c-4ea1-8939-9b1f5639e3b8}">
+      <IDSymbol name="MyMenu" value="0x1010" />
       <IDSymbol name="MyMenuGroup" value="0x1020" />
       <IDSymbol name="ToggleCommandId" value="0x0100" />
     </GuidSymbol>

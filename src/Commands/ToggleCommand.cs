@@ -9,6 +9,7 @@ using Task = System.Threading.Tasks.Task;
 
 namespace ToggleQuickInfo
 {
+	[ProvideSearchableCommand(nameof(ToggleCommand), PackageGuids.guidToggleQuickInfoPackageCmdSetString, PackageIds.MyMenu)]
 	internal sealed class ToggleCommand
 	{
 		public static async Task InitializeAsync(AsyncPackage package)
